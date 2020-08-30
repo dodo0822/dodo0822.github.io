@@ -1,0 +1,117 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+
+strong {
+  font-weight: 500;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.myself {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.myself img {
+  display: block;
+  width: 250px;
+  height: 250px;
+  clip-path: circle(50%);
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 16px;
+  background: #fff;
+}
+
+.header.sticky {
+  position: fixed;
+  top: 0;
+}
+
+.header.sticky+div {
+  margin-top: 170px;
+}
+
+.header h1 {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.nav {
+  border-top: 1px #000 solid;
+  border-bottom: 1px #000 solid;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-top: 16px;
+}
+
+.nav ul {
+  list-style-type: none;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  color: #000;
+}
+
+.nav li + li {
+  margin-left: 12px;
+}
+
+.main {
+  padding-left: 8px;
+}
+
+.main h1 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.project-block {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: -8px;
+}
+
+.project-image {
+  display: block;
+  flex-shrink: 0;
+  width: 288px;
+  height: auto;
+  margin: 8px;
+}
+
+.project-image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.project-description {
+  flex-shrink: 0;
+  flex-basis: 300px;
+  flex-grow: 1;
+  margin: 8px;
+}
+
+.project-description h2 {
+  font-size: 24px;
+  font-weight: 300;
+}
